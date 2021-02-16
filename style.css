@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-image: url(Layer15.png);
+  height: 1000px;
+  width: 100%;
+  position: absolute;
+}
+
+.header_logo {
+  margin-left: 360px;
+  margin-top: 40px;
+  font-weight: bold;
+  position: relative;
+  color: white;
+}
+
+.navigation {
+  display: flex;
+  justify-content: flex-end;
+  flex-flow: row wrap; /*flex-direction перенос элементов на новую строку*/
+  list-style: none; /*отмена маркеров для списка*/
+}
+
+.navigation a {
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.navigation li {
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+}
